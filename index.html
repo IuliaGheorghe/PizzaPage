@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Comanda Pizza</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="style.css" rel="stylesheet" />
+</head>
+<body>
+
+	<!-- HomeScreen -->
+
+	<div class="home">
+	<div id="welcome">
+		<h1>Best Pizza in Town</h1>
+		<a href="#formular"><button type="button">Comandă Acum</button></a>
+	</div>
+	</div>
+
+	<!-- Pizza Menu -->
+
+	<div class="pizza-menu">
+		<h1>Meniu</h1>
+		
+		<div id="pizza-cards-container">
+
+		<!-- Pizza 1 - Extreme -->
+		<div class="pizza-card">
+		   <div class="pizza-name">Extreme</div>
+		   <div class="pizza-image">
+		   	<img src="https://extreme-pizza.ro/wpress/wp-content/uploads/2018/06/extreme_big.jpg"/>
+		   </div>
+		   <div class="pizza-ingredients">
+		   	<p>Ingrediente:</p>
+		   	<ul>
+		   		<li>mozzarella</li>
+		   		<li>salam</li>
+		   		<li>ciuperci</li>
+		   		<li>masline</li>
+		   		<li>ardei</li>
+		   	</ul>
+		   </div>
+		   <div class="price">Preț: 25 lei</div>
+	    </div>
+
+	    <!-- Pizza 2 - Capriciossa -->
+
+		<div class="pizza-card">
+		  <div class="pizza-name">Capriciossa</div>
+		  <div class="pizza-image">
+		    <img src="https://extreme-pizza.ro/wpress/wp-content/uploads/2018/06/capriciossa_big.jpg" /> 
+		  </div>
+		  <div class="pizza-ingredients">
+		  	<p>Ingrediente:</p>
+		  	<ul>
+		  		<li>mozzarella</li>
+		  		<li>sunca</li>
+		  		<li>ciuperci</li>
+		  		<li>masline</li>
+		  	</ul>
+		  </div>
+		  <div class="price">Preț: 20 lei</div>
+	    </div>
+
+<!-- 	    Pizza 3 - Speciala
+ -->
+		<div class="pizza-card">
+		  <div class="pizza-name">Specială</div>
+		  <div class="pizza-image">
+		    <img src="https://extreme-pizza.ro/wpress/wp-content/uploads/2018/06/speciala_big.jpg" /> 
+		  </div>
+		  <div class="pizza-ingredients">
+		  	<p>Ingrediente:</p>
+		  	<ul>
+		  		<li>mozzarella</li>
+		  		<li>sunca</li>
+		  		<li>salam</li>
+		  		<li>ciuperci</li>
+		  		<li>masline</li>
+		  	</ul>
+		  </div>
+		  <div class="price">Preț: 30 lei</div>
+	    </div>
+
+	</div>
+
+	</div>
+
+
+	<!-- Formular-Fa o Comanda  -->
+
+    <div id="formular">
+    	<h1>Fa o Comanda</h1>
+
+    	<form method="get">
+    		<label>Nume:</label>
+    		<input type="text" name="nume" placeholder="Nume" required>
+    		<label>Prenume:</label>
+    		<input type="text" name="prenume" placeholder="Prenume" required>
+    		<label>Adresa:</label>
+    		<input type="text" name="adresa" placeholder="Adresa" required>
+    		<label>Telefon:</label>
+    		<input type="text" name="telefon" placeholder="Telefon" required>
+    		<label for="pizza">Pizza:</label>
+    		<select id="pizza" required>
+    		  <option value="extreme">Extreme</option>
+    		  <option value="capriciossa">Capriciossa</option>
+    		  <option value="speciala">Speciala</option>
+    		</select>
+    		<button type="submit">Plaseaza Comanda</button>
+    	</form>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
